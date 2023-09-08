@@ -16,7 +16,7 @@ const Home = () => {
 
     return (
         <>
-            <div className=" mt-[-105px] md:mt-[-131px] px-3 pt-60 pb-12 lg:block xl:px-0 ">
+            <div className=" mt-2 md:mt-[-131px] px-3 pt-10 md:pt-40 lg:pt-60 pb-12 lg:block xl:px-0 ">
                 <div className="lg:grid max-w-[1240px] mx-auto my-8 gap-x-10 grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-y-0  flex flex-col ">
                     <div className="grid grid-cols-1 md:grid-cols-2 md:items-start items-center bg-box   rounded-[29px]   p-14 md:space-x-10 relative shadow-sm shadow-slate-600" data-aos="zoom-in">
                         <div>
@@ -38,18 +38,16 @@ const Home = () => {
                     </div>
 
                     <div className="grid grid-cols-1 items-start md:space-y-0 space-y-10  ">
-                        <div className="bg-box w-full overflow-hidden rounded-full text-white p-6 text-sm my-8 shadow-sm shadow-slate-600 flex justify-center items-center" data-aos="zoom-in">
-                            <h2 className="">
-                                <TypewriterComponent
-                                    options={{
+                        <div className="bg-box w-full h-12  overflow-hidden rounded-full text-white p-4 text-sm my-8 shadow-sm shadow-slate-600 " data-aos="zoom-in">
+                            <h2 className="textMode text-whites overflow-clip  overflow-x-clip ">
+                                I'M  AVAILABLE  FOR <b className="text-white"> FREELANCE WORK </b> .
+                                I'M  AVAILABLE  FOR <b className="text-white"> FREELANCE WORK </b> .
+                                I'M  AVAILABLE  FOR <b className="text-white"> FREELANCE WORK </b> .
+                                I'M  AVAILABLE  FOR <b className="text-white"> FREELANCE WORK </b> .
+                                I'M  AVAILABLE  FOR <b className="text-white"> FREELANCE WORK </b> .
+                                I'M  AVAILABLE  FOR <b className="text-white"> FREELANCE WORK </b> .
+                                I'M  AVAILABLE  FOR <b className="text-white"> FREELANCE WORK </b> .
 
-                                        loop: true,
-                                        autoStart: true,
-                                        delay: 50,
-                                        strings: ["  ILABLE FOR FREELANCE WORK . I'M AVAILABLE FOR FREELANCE WORK . I'M AVAILABLE FOR FREELANCE  dfsjlk  j sdlkf"]
-
-                                    }}
-                                />
 
                             </h2>
                         </div>
@@ -151,15 +149,15 @@ const Home = () => {
                     <div className="grid grid-cols-1  items-center   rounded-[29px]   p-4  relative bg-box lg:order-3 order-2 shadow-sm shadow-slate-600" data-aos="zoom-in">
 
                         <div class="w-full flex justify-center items-center gap-5 relative">
-                            <div className="w-16 h-16 bg-slates rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black">
+                            <div className="w-16 h-16 mx-2 bg-slates rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black cursor-pointer">
 
                                 < GitHubIcon className="" />
                             </div>
-                            <div className=" w-16 h-16 bg-slates rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black">
+                            <div className=" w-16 h-16 mx-2 bg-slates rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black cursor-pointer">
 
                                 < TwitterIcon className="" />
                             </div>
-                            <div className="absolute top-16 w-16 h-16 bg-slates rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black">
+                            <div className="absolute top-16 w-16 h-16  bg-slates rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black cursor-pointer">
                                 < LinkedInIcon className="" />
                             </div>
                         </div>
@@ -222,23 +220,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="grid max-w-[1240px] mx-auto my-8 gap-x-10 grid-cols-1 gap-y-10 md:gap-y-0  space-y-10  ">
-                    <div className=" flex justify-center items-center w-full">
-                        <h1 className="text-4xl text-white">BlockForce</h1>
-                    </div>
-                    <div class=" gap-x-6 flex justify-center items-center xl:gap-x-12">
-                        <a target="_blank" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">About</a>
-                        <a target="" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Service</a>
-                        <a target="_blank" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Works</a>
-                        <a target="" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Contact</a>
-                    </div>
-                    <div className="w-full flex justify-center items-center ">
-                        <p className="text-blacks"> <CopyrightIcon /> All rights reserved by <span className="text-indigo-500">Blockchain</span></p>
 
-                    </div>
-
-
-                </div>
 
             </div>
 

@@ -1,8 +1,6 @@
 import React from "react";
+
 import { useEffect } from "react";
-import CameraAltIcon from '@mui/icons-material/CameraAlt';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import CopyrightIcon from '@mui/icons-material/Copyright';
 import Aos from 'aos';
 
 const Works = () => {
@@ -12,8 +10,8 @@ const Works = () => {
 
     return (
         <>
-            <div className=" mt-[-105px] md:mt-[-131px] px-3 pt-60 pb-12 lg:block xl:px-0 ">
-                <div className="lg:grid max-w-[1240px] mx-auto my-8 gap-x-10 grid-cols-1 gap-y-10 md:grid-cols-3 md:gap-y-0  space-y-10 flex flex-col-reverse ">
+            <div className="mt-2 md:mt-[-131px] px-3 pt-0 md:pt-40 lg:pt-60 pb-12 lg:block xl:px-0 ">
+                <div className="lg:grid max-w-[1240px] mx-auto  gap-x-10 grid-cols-1 gap-y-10 md:grid-cols-3 md:gap-y-0  space-y-10 flex flex-col-reverse ">
                     <div className="flex justify-center flex-col items-start bg-box   rounded-[29px]   p-8 relative shadow-sm shadow-slate-600 " data-aos="zoom-in" >
                         <div className='rounded-xl '>
 
@@ -51,7 +49,7 @@ const Works = () => {
 
 
                     <div className="grid grid-cols-1 items-start w-full  col-span-2 ">
-                        <div className="flex justify-center items-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl w-full rounded-full text-white p-6  my-2 font-bold " data-aos="zoom-in">
+                        <div className="flex justify-center items-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl w-full rounded-full text-white p-6 mb-10 md:my-2  font-bold " data-aos="zoom-in">
                             <img decoding="async" className="w-[30px] md:w-[40px] lg:w-[50px] xl:w-[60px]" src="https://dev-salamayotunde.pantheonsite.io/wp-content/uploads/2023/08/star-2.png" class="attachment-large size-large wp-image-33" alt="" />
 
                             ALL PROJECTS
@@ -259,23 +257,6 @@ const Works = () => {
                 </div>
 
 
-                <div className="grid max-w-[1240px] mx-auto my-16 gap-x-10 grid-cols-1 gap-y-10 md:gap-y-0  space-y-10  ">
-                    <div className=" flex justify-center items-center w-full">
-                        <h1 className="text-4xl text-white">BlockForce</h1>
-                    </div>
-                    <div class=" gap-x-6 flex justify-center items-center xl:gap-x-12">
-                        <a target="_blank" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Homw</a>
-                        <a target="" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">About</a>
-                        <a target="_blank" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Works</a>
-                        <a target="" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Contact</a>
-                    </div>
-                    <div className="w-full flex justify-center items-center ">
-                        <p className="text-blacks"> <CopyrightIcon /> All rights reserved by <span className="text-indigo-500">Blockchain</span></p>
-
-                    </div>
-
-
-                </div>
 
             </div>
 

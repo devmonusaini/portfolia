@@ -18,10 +18,10 @@ const Contact = () => {
 
     return (
         <>
-            <div className=" mt-[-105px] md:mt-[-131px] px-3 pt-60 pb-12 lg:block xl:px-0 ">
-                <div className="lg:grid max-w-[1240px] mx-auto my-8 gap-x-10 grid-cols-1 gap-y-10 md:grid-cols-3 md:gap-y-0  space-y-10 " data-aos="zoom-in">
-                    <div className="flex justify-center items-start flex-col    p-6 py-2  space-y-20 ">
-                        <div className="flex justify-center items-start flex-col    p-6 py-2  space-y-5 ">
+            <div className=" mt-2 md:mt-[-131px] px-3 pt-20 md:pt-40 lg:pt-60 pb-12 lg:block xl:px-0  ">
+                <div className="lg:grid max-w-[1240px] mx-auto  gap-x-10 grid-cols-1 gap-y-10 md:grid-cols-3 md:gap-y-0  space-y-10 " data-aos="zoom-in">
+                    <div className="flex justify-center items-start flex-col     py-2  space-y-20 ">
+                        <div className="flex justify-center items-start flex-col     py-2  space-y-5 ">
 
                             <h1 className="text-white text-xl">Contact Us</h1>
                             <div className="flex justify-center items-center flex-row">
@@ -63,15 +63,15 @@ const Contact = () => {
 
                             <h1 className="text-white text-xl">SOCIAL INFO</h1>
                             <div class="w-full flex justify-center items-center gap-5 ">
-                                <div className="shadow-sm shadow-slate-600 w-16 h-16 bg-slates rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black">
+                                <div className=" cursor-pointer sm:mx-0 mx-2  shadow-sm shadow-slate-600 w-16 h-16 bg-slates rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black">
 
                                     < GitHubIcon className="" />
                                 </div>
-                                <div className="  shadow-sm shadow-slate-600 w-16 h-16 bg-slates rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black">
+                                <div className="   cursor-pointer sm:mx-0 mx-2  shadow-sm shadow-slate-600 w-16 h-16 bg-slates rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black">
 
                                     < TwitterIcon className="" />
                                 </div>
-                                <div className="  shadow-sm shadow-slate-600 w-16 h-16 bg-slates rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black">
+                                <div className="   cursor-pointer sm:mx-0 mx-2  shadow-sm shadow-slate-600 w-16 h-16 bg-slates rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black">
                                     < LinkedInIcon className="" />
                                 </div>
                             </div>
@@ -119,23 +119,7 @@ const Contact = () => {
 
 
 
-                <div className="grid max-w-[1240px] mx-auto my-16 gap-x-10 grid-cols-1 gap-y-10 md:gap-y-0  space-y-10  ">
-                    <div className=" flex justify-center items-center w-full">
-                        <h1 className="text-4xl text-white">BlockCourse</h1>
-                    </div>
-                    <div class=" gap-x-6 flex justify-center items-center xl:gap-x-12">
-                        <a target="_blank" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Home</a>
-                        <a target="" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">About</a>
-                        <a target="_blank" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Works</a>
-                        <a target="" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Contact</a>
-                    </div>
-                    <div className="w-full flex justify-center items-center ">
-                        <p className="text-blacks"> <CopyrightIcon /> All rights reserved by <span className="text-indigo-500">Blockchain</span></p>
 
-                    </div>
-
-
-                </div>
 
             </div>
 

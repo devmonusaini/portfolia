@@ -5,6 +5,7 @@ import About from "./component/About";
 import Service from "./component/Service"
 import Works from "./component/Works";
 import Contact from "./component/Contact";
+import Footer from "./component/Footer";
 import { Routes, Route } from "react-router-dom";
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/Works" Component={Works} />
         <Route path="/contact" Component={Contact} />
       </Routes>
+      <Footer />
     </>
 
   );

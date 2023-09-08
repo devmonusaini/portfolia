@@ -10,7 +10,7 @@ const Navbar = () => {
                 <header className="bg-black" >
                     <nav className="mx-auto flex items-center justify-between gap-x-6 p-6 max-w-[1240px] lg:px-8">
                         <div className="flex">
-                            <a className="-m-1.5 p-1.5 text-white  text-3xl flex justify-center items-center " href="/">
+                            <a className="-m-1.5 p-1.5 text-white font-bold text-3xl flex justify-center items-center " href="/">
                                 <span className="sr-only">
                                     Your Company
                                 </span>
@@ -21,13 +21,13 @@ const Navbar = () => {
                             </a>
                         </div>
                         <div className="hidden gap-x-6 lg:flex xl:gap-x-12">
-                            <NavLink to="/"> <a target="" className="hover:text-white text-blacks font-normal text-sm xl:text-xl " href="">Home</a></NavLink>
-                            <NavLink to="/about">   <a target="_blank" className="hover:text-white text-blacks font-normal text-sm xl:text-xl " href="">About</a></NavLink>
-                            <NavLink to="/service">   <a target="" className="hover:text-white text-blacks font-normal text-sm xl:text-xl " href="">Service</a></NavLink>
-                            <NavLink to="/works">      <a target="_blank" className="hover:text-white text-blacks font-normal text-sm xl:text-xl " href="">Works</a></NavLink>
-                            <NavLink to="/contact">  <a target="" className="hover:text-white text-blacks font-normal text-sm xl:text-xl " href="">Contact</a></NavLink>
+                            <NavLink activeClassName="active" to="/"> <a target="" className="hover:text-white active:text-white text-blacks font-normal text-sm xl:text-xl " href="">Home</a></NavLink>
+                            <NavLink activeClassName="active" to="/about">   <a target="_blank" className="hover:text-white active:text-white text-blacks font-normal text-sm xl:text-xl " href="">About</a></NavLink>
+                            <NavLink activeClassName="active" to="/service">   <a target="" className="hover:text-white active:text-white text-blacks font-normal text-sm xl:text-xl " href="">Service</a></NavLink>
+                            <NavLink activeClassName="active" to="/works">      <a target="_blank" className="hover:text-white active:text-white text-blacks font-normal text-sm xl:text-xl " href="">Works</a></NavLink>
+                            <NavLink activeClassName="active" to="/contact">  <a target="" className="hover:text-white active:text-white text-blacks font-normal text-sm xl:text-xl " href="">Contact</a></NavLink>
                         </div>
-                        <div className="items-center justifybox height same and content size same, Its difficult to manage the ssection becuase images sizes is too much, if i set the images its look strechable -end hidden gap-x-4 lg:flex xl:gap-x-8">
+                        <div className="items-center font-bold justifybox height same and content size same, Its difficult to manage the ssection becuase images sizes is too much, if i set the images its look strechable -end hidden gap-x-4 lg:flex xl:gap-x-8">
                             <NavLink to="/contact"> <button className="rounded-xl text-white hover:text-black bg-blacks hover:bg-white    font-lg   py-3 px-4 text-[10px] xl:py-2 xl:px-8 xl:text-lg transition ease-in-out delay-100  duration-300">Let's talk</button></NavLink>
 
                         </div>
@@ -65,29 +65,29 @@ const Navbar = () => {
                                     <div className="-my-6 divide-y divide-gray-500/10">
                                         <div className="space-y-2 py-6">
                                             <NavLink to="/">
-                                                <a target="" className="-mx-3 block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-blacks hover:text-white " href="" onClick={() => {
+                                                <a target="" className="-mx-3 active:text-white block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-blacks hover:text-white " href="" onClick={() => {
                                                     setToggle(!toggle);
                                                 }}>Home</a>
                                             </NavLink>
                                             <NavLink to="/about">
-                                                <a target="" className="-mx-3 block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-blacks hover:text-white" href="" onClick={() => {
+                                                <a target="" className="-mx-3 active:text-white block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-blacks hover:text-white" href="" onClick={() => {
                                                     setToggle(!toggle);
                                                 }}>about</a>
                                             </NavLink>
                                             <NavLink to="/service">
-                                                <a target="" className="-mx-3 block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-blacks hover:text-white" href=""
+                                                <a target="" className="-mx-3 active:text-white block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-blacks hover:text-white" href=""
                                                     onClick={() => {
                                                         setToggle(!toggle);
                                                     }}>Service</a>
                                             </NavLink>
                                             <NavLink to="/works">
-                                                <a target="_blank" className="-mx-3 block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-blacks hover:text-white" href=""
+                                                <a target="_blank" className="-mx-3 active:text-white block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-blacks hover:text-white" href=""
                                                     onClick={() => {
                                                         setToggle(!toggle);
                                                     }}>Works</a>
                                             </NavLink>
                                             <NavLink to="/contact">
-                                                <a target="" className="-mx-3 block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-blacks hover:text-white" href="" onClick={() => {
+                                                <a target="" className="-mx-3 active:text-white block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-blacks hover:text-white" href="" onClick={() => {
                                                     setToggle(!toggle);
                                                 }}>Contact</a>
                                             </NavLink>

@@ -1,10 +1,9 @@
 import React from "react";
-import CameraAltIcon from '@mui/icons-material/CameraAlt';
-import GitHubIcon from '@mui/icons-material/GitHub';
+
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
-import CopyrightIcon from '@mui/icons-material/Copyright';
+
 import { useEffect } from "react";
 import Aos from 'aos';
 
@@ -16,7 +15,7 @@ const Service = () => {
 
     return (
         <>
-            <div className=" mt-[-105px] md:mt-[-131px] px-3 pt-60 pb-12 lg:block xl:px-0 ">
+            <div className="mt-2 md:mt-[-131px] px-3 pt-20 md:pt-40 lg:pt-60 pb-12 lg:block xl:px-0  ">
                 <div className="lg:grid max-w-[1240px] mx-auto my-8 gap-x-10 grid-cols-1 gap-y-10 md:grid-cols-3 md:gap-y-0  flex flex-col  items-center">
                     <div className="flex justify-center items-start flex-col bg-slates   rounded-[29px]   p-6 py-20 md:py-64   shadow-sm shadow-slate-600 space-y-40 " data-aos="zoom-in">
 
@@ -54,14 +53,14 @@ const Service = () => {
                 </div>
 
                 <div className="lg:grid max-w-[1240px] mx-auto my-8 gap-x-10 grid-cols-1 gap-y-10 lg:grid-cols-4 md:gap-y-0  space-y-10  ">
-                    <div className="grid grid-cols-1  items-center   rounded-[29px]   p-4  relative bg-slates  shadow-sm shadow-slate-600">
+                    <div className="grid grid-cols-1  items-center   rounded-[29px]   p-4  relative bg-slates  shadow-sm shadow-slate-600" data-aos="zoom-in">
 
-                        <div class="w-full flex justify-center items-center gap-5 relative   h-32 rounded-[29px]   p-4   bg-slates  shadow-sm shadow-slate-600" data-aos="zoom-in">
-                            <div className="w-16 h-16 bg-slate-950 hover:bg-white rounded-full flex justify-center items-center text-white hover:text-black shadow-md shadow-slate-600" >
+                        <div class="w-full flex justify-center items-center gap-5 relative   h-32 rounded-[29px]   p-4   bg-slates  shadow-sm shadow-slate-600" >
+                            <div className="w-16 h-16 bg-slate-950 hover:bg-white rounded-full flex justify-center items-center text-white hover:text-black shadow-md shadow-slate-600 cursor-pointer   " >
 
                                 < LinkedInIcon className="" />
                             </div>
-                            <div className=" w-16 h-16 bg-slate-950  rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black shadow-md shadow-slate-600">
+                            <div className=" w-16 h-16 bg-slate-950  rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black shadow-md shadow-slate-600 cursor-pointer ">
 
                                 < TwitterIcon className="" />
                             </div>
@@ -81,7 +80,7 @@ const Service = () => {
 
                         </div>
                     </div>
-                    <div className="grid grid-cols-1  col-span-2 items-center   rounded-[29px]   p-4  relative bg-slates  shadow-sm shadow-slate-600" data-aos="zoom-in">
+                    <div className="grid grid-cols-1  col-span-2 items-center   rounded-[29px] h-[320px]  p-4  relative bg-slates  shadow-sm shadow-slate-600" data-aos="zoom-in">
 
 
                         <div className="absolute top-0 left-5">
@@ -89,7 +88,7 @@ const Service = () => {
                         </div>
                         <div className="">
 
-                            <h1 className="text-white text-5xl font-bold absolute left-5 bottom-20 " >
+                            <h1 className="text-white text-5xl font-bold absolute left-5 bottom-24 " >
                                 let's <br /> work <span className="text-blue-600">together.</span></h1>
                         </div>
                         <div className="text-white absolute right-10 bottom-10">
@@ -121,23 +120,6 @@ const Service = () => {
                 </div>
 
 
-                <div className="grid max-w-[1240px] mx-auto my-16 gap-x-10 grid-cols-1 gap-y-10 md:gap-y-0  space-y-10  ">
-                    <div className=" flex justify-center items-center w-full">
-                        <h1 className="text-4xl text-white">BlockForce</h1>
-                    </div>
-                    <div class=" gap-x-6 flex justify-center items-center xl:gap-x-12">
-                        <a target="_blank" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Homw</a>
-                        <a target="" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">About</a>
-                        <a target="_blank" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Works</a>
-                        <a target="" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Contact</a>
-                    </div>
-                    <div className="w-full flex justify-center items-center ">
-                        <p className="text-blacks"> <CopyrightIcon /> All rights reserved by <span className="text-indigo-500">Blockchain</span></p>
-
-                    </div>
-
-
-                </div>
 
             </div>
 

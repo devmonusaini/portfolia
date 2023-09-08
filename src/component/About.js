@@ -16,7 +16,7 @@ const About = () => {
 
     return (
         <>
-            <div className=" mt-[-105px] md:mt-[-131px] px-3 pt-60 pb-12 lg:block xl:px-0 ">
+            <div className="mt-2 md:mt-[-131px] px-3 pt-10 md:pt-40 lg:pt-60 pb-12 lg:block xl:px-0 ">
                 <div className="lg:grid max-w-[1240px] mx-auto my-8 gap-x-10 grid-cols-1 gap-y-10 md:grid-cols-3 md:gap-y-0  flex flex-col  items-center">
                     <div className="flex justify-center items-center bg-box   rounded-[29px] max-w-md  p-6  relative shadow-sm shadow-slate-600" data-aos="zoom-in">
                         <img className="  imgradius " src="https://dev-salamayotunde.pantheonsite.io/wp-content/uploads/2023/08/salamo-768x1024.jpg" alt="photo" />
@@ -26,14 +26,14 @@ const About = () => {
                     </div>
 
                     <div className="grid grid-cols-1 items-start md:space-y-0 space-y-10 w-full lg:col-span-2  ">
-                        <div className="flex justify-center items-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl w-full rounded-full text-white p-6  my-2 " data-aos="zoom-in">
+                        <div className="flex justify-center items-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl w-full rounded-full text-white p-6 my-10  sm:my-2 " data-aos="zoom-in">
                             <img decoding="async" className="w-[30px] md:w-[40px] lg:w-[50px] xl:w-[60px]" src="https://dev-salamayotunde.pantheonsite.io/wp-content/uploads/2023/08/star-2.png" class="attachment-large size-large wp-image-33" alt="" />
                             SELF-SUMMARY
                             <img decoding="async" className="w-[30px] md:w-[40px] lg:w-[50px] xl:w-[60px]" src="https://dev-salamayotunde.pantheonsite.io/wp-content/uploads/2023/08/star-2.png" class="attachment-large size-large wp-image-33" alt="" />
                         </div>
 
 
-                        <div className="grid grid-cols-1  items-center   rounded-[29px]   px-4  relative bg-box lg:order-3 order-2 h-[300px] shadow-sm shadow-slate-600" data-aos="zoom-in">
+                        <div className="grid grid-cols-1  items-center   rounded-[29px]   px-4  relative bg-box lg:order-3 order-2 md:h-[300px] h-[400px] shadow-sm shadow-slate-600" data-aos="zoom-in">
 
                             <div className="absolute top-0 left-5">
                                 <img decoding="async" loading="lazy" width="37" height="76" src="https://dev-salamayotunde.pantheonsite.io/wp-content/uploads/2023/08/icon2.png" class="attachment-large size-large wp-image-17" alt="" />
@@ -113,11 +113,11 @@ const About = () => {
                     <div className="grid grid-cols-1  items-center   rounded-[29px]   p-4  relative bg-box  shadow-sm shadow-slate-600" data-aos="zoom-in">
 
                         <div class="w-full flex justify-center items-center gap-5 relative   h-32 rounded-[29px]   p-4   bg-slates  shadow-sm shadow-slate-600">
-                            <div className="w-16 h-16 bg-slate-950 hover:bg-white rounded-full flex justify-center items-center text-white hover:text-black shadow-md shadow-slate-600" >
+                            <div className="w-16 h-16 bg-slate-950 hover:bg-white rounded-full flex justify-center items-center text-white hover:text-black shadow-md shadow-slate-600 cursor-pointer" >
 
                                 < GitHubIcon className="" />
                             </div>
-                            <div className=" w-16 h-16 bg-slate-950  rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black shadow-md shadow-slate-600">
+                            <div className=" w-16 h-16 bg-slate-950  rounded-full flex justify-center items-center hover:bg-white text-white hover:text-black shadow-md shadow-slate-600 cursor-pointer">
 
                                 < TwitterIcon className="" />
                             </div>
@@ -176,24 +176,6 @@ const About = () => {
 
                 </div>
 
-
-                <div className="grid max-w-[1240px] mx-auto my-16 gap-x-10 grid-cols-1 gap-y-10 md:gap-y-0  space-y-10  ">
-                    <div className=" flex justify-center items-center w-full">
-                        <h1 className="text-4xl text-white">BlockForce</h1>
-                    </div>
-                    <div class=" gap-x-6 flex justify-center items-center xl:gap-x-12">
-                        <a target="_blank" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Home</a>
-                        <a target="" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Service</a>
-                        <a target="_blank" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Works</a>
-                        <a target="" class="hover:text-white text-blacks font-normal text-sm xl:text-lg " href="">Contact</a>
-                    </div>
-                    <div className="w-full flex justify-center items-center ">
-                        <p className="text-blacks"> <CopyrightIcon /> All rights reserved by <span className="text-indigo-500">Blockchain</span></p>
-
-                    </div>
-
-
-                </div>
 
             </div>
 
